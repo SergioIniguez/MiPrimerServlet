@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Esto es envío por Get</h1>
+        <form action="NuevoServlet" method="GET">
+            <input type="text" name="usuario"/>
+            <input type="submit"/>
+        </form>
+        
+        <h1>Esto es envío por Post</h1>
+        <form action="NuevoServlet2" method="POST">
+            <label>
+               Usuario
+            </label>
+            <input type="text" name="usuario" placeholder="Alguien"/>
+            <label>
+               Contraseña 
+            </label>
+            <input type="password" name="contra" placeholder="********"/>
+            <input type="submit"/> <br>
+            <br>
+            <label>
+               Selecciona tu género
+            </label>
+            <br>
+            <input type="radio" name="sexo" value="masculino"/>Masculino
+            <input type="radio" name="sexo" value="femenino"/>Femenino
+            <br><br>
+            <label>
+               Selecciona tus pelis favoritas
+            </label>
+            <br>
+            <input type="checkbox" name="peli" value="Star Wars"/>Star Wars
+            <input type="checkbox" name="peli" value="Harry Potter"/>Harry Potter
+            <input type="checkbox" name="peli" value="The Butterfly Effect"/>The Butterfly efect
+            <input type="checkbox" name="peli" value="Fast and Furious"/>Fast and Furious
+            <br>
+            <input type="checkbox" name="peli" value="Rcdampage"/>Rampage
+            <input type="checkbox" name="peli" value="Hard to Die"/>Hard to Die
+            <input type="checkbox" name="peli" value="Gravity"/>Gravity
+            <input type="checkbox" name="peli" value="The Lord of the Rings"/>The Lord of the Rings
+        </form>
+    </body>
+</html>
